@@ -3,7 +3,7 @@ body{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 1500px;
+  height: 1144px;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -308,21 +308,15 @@ body{
   flex-wrap: wrap;
 }
 
-
-#dropStatus {
-  text-transform: capitalize;
-}
-
 #dropZone {
   width: 600px;
   height: 400px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
   border: 1px solid black;
   box-sizing: border-box;
-  display: flex;
-  flex-wrap: wrap;
-  overflow: hidden;
 }
-
 .count{
   display: flex;
   flex-direction: row;
@@ -486,7 +480,7 @@ body{
 @media (max-width: 1022px) {
   .box{
     width: 510px;
-    height: 397px;
+    height: 405px;
   }
   #objectsZone .box__7__item{
     margin-top: 180px;
@@ -531,7 +525,7 @@ body{
 @media (max-width: 555px) {
   .box{
     width: 370px;
-    height: 582px;
+    height: 857px;
   }
   #objectsZone .box__6__item{
     margin-top: 380px;
